@@ -1,0 +1,28 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{%static 'tr/file.css'%}" rel="stylesheet">
+</head>
+<body>
+    <div class="photo">
+        <div class="wbox">
+            <h1 class="mj">Add Work</h1>
+            <form method="get">
+               <h2>Type input</h2><input type="text" name="work" class="io"><br>
+                 <input type="submit" class="bot">
+             </form>
+             <h2>Work added = "{{kaam}}"</h2>
+        </div>
+        <div class="lk">
+            <a href="/works">Back</a>
+        </div>
+       
+    </div>
+   
+    
+</body>
+</html>

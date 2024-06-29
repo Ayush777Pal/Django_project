@@ -1,0 +1,27 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{%static 'tr/file.css'%}" rel="stylesheet">
+</head>
+<body>
+    <div class="photo">
+        <div class="wbox">
+            <h1>Your task</h1>
+            <ol type="1">
+                {%for i in work%}
+            <li class="lit">{{i}}</li>
+            {%endfor%}
+            </ol>
+        </div>
+        <div class="lk">
+            <a href="/works/add">ADD</a>
+        </div>
+        
+    </div>
+</body>
+</html>

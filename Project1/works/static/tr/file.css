@@ -1,0 +1,64 @@
+.photo{
+    background-image: url(pexels-photo-531880.jpeg);
+    background-size:100% 100% ;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.wbox {
+    width: 600px;
+    height: 50vh;
+    border: solid rgb(155, 232, 225) 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 27%;
+}
+.wbox h1{
+    color: rgb(10, 10, 10);
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 70px;
+}
+ol{
+    margin-left:20px ;
+}
+.lit{
+    font-size: 30px;
+    color: azure;
+}
+.lk{
+    width: 600px;
+    height: 5vh;
+    border: solid rgb(155, 232, 225) 5px;
+    border-radius: 10px;
+    background-color: rgb(182, 238, 238);
+    margin-top: 40px;
+    margin-left: 27%;
+}
+.lk a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 45%;
+    margin-top: 2px;
+    font-size: 25px;
+}
+.wbox h2{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size:25px ;
+    color: azure;
+}
+.io{
+    margin-left: 10px;
+    width: 90% ;
+    height: 20px;
+}
+.bot{
+    margin-left: 10px;
+    width: 100px;
+    margin-top: 15px;
+}

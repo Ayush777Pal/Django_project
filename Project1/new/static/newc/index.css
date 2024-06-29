@@ -1,0 +1,30 @@
+.photo{
+    background-image: url(pexels-photo-255379.webp);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.mar{
+    margin-top: 35vh;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+}
+.tile{
+    color: rgb(0, 110, 255);
+    font-size: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mar2{
+    width: 300px;
+    height: 50vh;
+    background-color: transparent;
+    margin-left: 30%;
+}
+.tile2{
+    color: rgb(10, 224, 103);
+    font-size: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

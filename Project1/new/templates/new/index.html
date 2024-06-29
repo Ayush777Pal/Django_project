@@ -1,0 +1,23 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newyear</title>
+    <link href="{%static 'newc/index.css'%}" rel="stylesheet">
+</head>
+<body>
+    <div class="photo">
+        {%if date%}
+      <div class="mar">
+        <marquee class="tile" scrollamount="20"> 🎉 Happy Newyear  🎉 </marquee>
+       </div>
+      {%else%}
+      <div class="mar2">
+        <h1 class="tile2">NO</h1>
+       </div>
+     {%endif%}
+    </div>
+</body>
+</html>
